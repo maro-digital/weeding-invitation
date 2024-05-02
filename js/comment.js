@@ -280,7 +280,7 @@ export const comment = (() => {
           comments.innerHTML = `<div class="h6 text-center fw-bold p-4 my-3 bg-theme-${theme.isDarkMode(
             "dark",
             "light"
-          )} rounded-4 shadow">Yuk bagikan undangan ini biar banyak komentarnya</div>`;
+          )} rounded-4 shadow">-</div>`;
           return;
         }
 
